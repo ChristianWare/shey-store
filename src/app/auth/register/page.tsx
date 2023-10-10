@@ -21,7 +21,8 @@ const Register = () => {
           Chris E-commerce Shop
         </h1>
       </div>
-      <div className='flex items-center justify-center h-full'>
+      <div className='flex flex-col items-center justify-center h-full'>
+        <h1>Register</h1>
         <Form className='w-[500px]' layout='vertical' onFinish={onRegister}>
           <Form.Item name='name' label='Name'>
             <input type='text' />
